@@ -1,7 +1,8 @@
 li {
-    padding: 15px;
-    margin: 15px;
-    background: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    background: #e4a539;
+    /* opacity: .70; */
     list-style: none;
   }
   
@@ -23,6 +24,8 @@ ul {
   
 img {
       align-content: center;
+      max-width: 20%;
+      max-height: 20%;
   }
   
 h1 {
@@ -38,23 +41,20 @@ h2 {
   .create-update-form {
     padding: 25px;
     margin: 25px;
-    background: #eceff1;
-    border: 1px black solid;
+    background-image: url("/assets/images/burger-background2.jpg");
+    opacity: .70;
   }
   
-  .form-group {
+.form-group {
     margin-bottom: 25px;
   }
   
-  .btn-primary {
-      border-radius: 15px;
-  }
   
 html, body{
       height: 100%;
   }
 body { 
-      background-image: url("/public/assets/images/burger-background.jpeg");
+      background-image: url("/assets/images/burger-background.jpg");
       background-position: center center;
       background-repeat:  no-repeat;
       background-attachment: fixed;
@@ -76,7 +76,19 @@ div, body{
       height: 100%; 
       width: 100%; 
       }
-  
+
+.jumbotron {
+    background-color: rgb(194, 171, 42);
+    color: rgb(223, 217, 217);
+    opacity: .90;
+
+}
+
+.font-weight-bold {
+    font-size: 30px;
+    color: rgb(12, 11, 11);
+}
+/*   
 .message {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -89,4 +101,4 @@ div, body{
     background-color: rgba(0,0,0,0.6);
     color: #fff;
     padding: 0.5em;
-  }
+  } */

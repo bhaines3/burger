@@ -1,24 +1,21 @@
-<div class="container bg">
+<div class="container">
 	
-	<div class="row">
-	    <div class="center col-sm-12">
-			<img src="" alt="Eat-Da-Burger App">
+	<div class="jumbrotron text-center">
+			<img src="assets/images/burger-logo.svg" alt="Eat-Da-Burger">
 	        <h1>Eat-Da-Burger App</h1>
 	        <p></p>
-	    </div>
   	</div>
 
 
 	<div class="row">
-	    <div class="col-sm-6">
+	    <div class="col-6">
 
-			<br>
 			<h2>Awaiting to be eaten!</h2>
 
 			<ul>
 			  {{#each burgers}}
 			    {{#unless this.devoured}}
-			      <li>
+			      <li class="rounded">
 			      	{{this.id}}
 			        {{this.burger_name}}
 
@@ -34,7 +31,7 @@
 
 	    </div>
 
-	    <div class="col-sm-6">
+	    <div class="col-6">
 
 			<h2>BURGERS DEVOURED!!</h2>
 			
@@ -53,18 +50,18 @@
   	</div>
 
 	<div class="row">
-	    <div class="center col-sm-12">
+	    <div class="center col-12">
 
 			<h2>Add A Burger!</h2>
 
 			<form class="create-update-form" action="/" method="POST">
 
 			  <div class="form-group">
-			    <p>What burger would you like today?</p>
+			    <p class="font-weight-bold">What burger would you like today?</p>
 			    <input type="text" id="ca" name="burger_name">
 			  </div>
 			  
-			  <button class="btn-outline-dark" type="submit">Submit Order</button>
+			  <button class="btn-warning" type="submit">Submit Order</button>
 			</form>
 
 	    </div>
