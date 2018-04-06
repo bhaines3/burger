@@ -12,7 +12,7 @@ Designed to be used as a communication tool for fellow developers in the communi
 ![screen shot 2017-08-08 at 9 04 17 pm](https://user-images.githubusercontent.com/20759022/29104877-08c021a0-7c7e-11e7-9565-da1bb79421bd.png)
 
 # Live Demo
-The app of the burger eating application can be found [here]().
+The app of the burger eating application can be found [here](https://eat-the-burgerz.herokuapp.com/).
 
 # Installation
 1) Git - Installing Git: Run git from terminal
